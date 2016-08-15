@@ -1,0 +1,85 @@
+ENERGY EASY - END USER TERMS OF USE
+
+TERMS OF REGISTRATION, METERING DATA SERVICE AND LICENCE TO USE PORTAL
+WARNING: PERMISSION TO USE THE PORTAL AND ACCESS ENERGY CONSUMPTION DATA VIA A HOME AREA NETWORK DEVICE SUCH AS AN IN HOME DISPLAY IS CONDITIONAL ON YOU, THE CUSTOMER, AGREEING TO THE TERMS AND CONDITIONS SET OUT BELOW.
+BY CLICKING "I ACCEPT", YOU WILL BE DEEMED TO BE LEGALLY BOUND BY THESE TERMS.  IF YOU DO NOT ACCEPT THE TERMS AND CONDITIONS, DO NOT CLICK "I ACCEPT".
+WE RESERVE THE RIGHT TO CANCEL YOUR ACCOUNT IF YOU BREACH THESE TERMS AND CONDITIONS OR IF YOU MOVE HOUSE.
+
+WHAT IS THE ENERGY EASY PORTAL
+The Energy Easy Portal ("Portal") is an online application provided by United Energy ("us, we, our") that gives the occupier of premises connected to a smart meter (whether individuals, companies, partnerships or otherwise) ("you, your") access to your energy consumption information.  You can also access this information in real time via a compatible In Home Display device ("IHD") connected to your meter via a secure home area network.
+HOW DO I REGISTER
+In order to use the Portal and/or connect an IHD, you must apply to register an account and agree to these terms and conditions ("T&Cs"). Registration is free but non-transferable.  In return for free registration, you agree to allow us to collect and use certain personal information about you (such as your name, contact details and smart meter serial number).
+You will be transferred to the registration page to complete your registration request after you click "I Accept".  Your details and request will then be cross-checked against our records and, if necessary, sent by us to your electricity retailer for verification of your identity.
+Before you register, please be aware that:
+(a)             the personal details we collect from you contains unique identifiers that can be used to ascertain your identity;
+(b)             we will collect, use, handle and store your personal information in accordance with our Privacy Policy, as updated from time to time at,
+
+https://unitedenergy.com.au/privacy/
+(c)             we may cancel your account if you withdraw your consent in relation to required personal details.
+We may also cancel your account if you breach these T&Cs, you move house or change electricity retailers.
+
+RIGHT TO REQUEST ACCESS
+In submitting a registration request, you represent that you are the occupier of the premises connected to the smart meter nominated in your registration details in respect of which you are requesting access to energy consumption data.
+CHANGES TO THESE T&CS
+We reserve the right to change these T&Cs at any time.  We will notify you of any material changes via the email address that you provide.  You may deregister your account at any time if you do not agree to these T&Cs (as amended).
+YOUR PERSONAL INFORMATION
+INFORMATION WHICH WE MAY COLLECT
+You acknowledge that any personal information provided by you is freely given by you and with your consent.
+You acknowledge that we may obtain personal information about you, including your energy usage patterns as an incidental part of providing you access to the Portal.
+OUR USE OF YOUR PERSONAL INFORMATION
+We will comply with our Privacy Policy (as updated from time to time) and applicable privacy laws in relation to your personal information.
+By clicking on "I Accept", you consent to:
+(a)             the use of your personal information to verify your identity for lawful purposes;
+(b)             the provision of your personal information to our authorised service providers and your retailer for lawful purposes;
+(c)             the use of your personal information in a de-identified form for research and analysis purposes;
+(d)        us sending you communications from time to time for energy trials and projects, unless you opt out of such communications; and
+(d)             us sending you communications from time to time for administrative purposes, such as password resets, and other notifications, such as tips on Portal use, outage notifications, your meter becoming AMI ready and energy use notifications to help you achieve energy savings goals.
+ METERING DATA SERVICE
+Accuracy of information
+Data is derived from our systems, or, if you access information via an IHD, directly from your smart meter.
+All data delivered to you is indicative only.  The Portal and the IHD devices are tools to help you track your energy use, but should not be relied on as completely accurate.
+ Portal data and billing
+We are not responsible for your retail bill.  Any queries about your retail bill should be directed to your electricity retailer.
+Maintenance and down time
+We may conduct maintenance on the Portal and/or your meter.
+Your use of the Portal and/or IHD may be temporarily disrupted from time to time for maintenance and related purposes.
+Internet connection
+You must arrange for your own internet connection in order to access the Portal.
+   YOUR RESPONSIBILITY FOR THE PORTAL AND OTHER OBLIGATIONS
+(a)             You are provided with access to the Portal and/or IHD only for your personal use.
+(b)             You must ensure that your access to the Portal and/or IHD is not illegal or prohibited by law.
+(c)             All intellectual property in the Portal is owned or licensed by us and except for a licence to use the Portal in accordance with these T&Cs, nothing in these T&Cs grants you any right, title or interest in relation to the Portal.  You must not copy, adapt or otherwise breach any intellectual property rights in the registration process, screen displays and anything else related to the Portal and/or IHD.
+(d)             You must:
+(i)              only use the Portal and/or IHD for lawful purposes;
+(ii)             ensure that any person you have expressly or impliedly authorised to use the Portal and/or IHD (including without limitation other household members or employees) abides by these T&Cs.
+(e)             You must not attempt to use or misuse the Portal and/or IHD:
+(i)              for any unauthorised commercial purpose;
+(ii)             to breach any law or regulation or allow any person to do the same; or
+(iii)            to infringe another person's rights or expose us to liability or do anything which could bring us or our service providers into disrepute; or
+(iv)           in any way which may damage any property of a third party or injure or kill any person.
+(f)             You must take all best efforts to restrict access to the Portal, IHD and information delivered by the Portal or IHD to only persons who are expressly authorised to use the Portal and/or IHD.
+OUR WARRANTIES
+Terms Implied by Statute
+You have statutory guarantees and other rights that cannot be excluded under the Australian Consumer Law.  Nothing in these T&Cs limits or excludes any such rights.
+Security of Information
+Unfortunately, no data transmission over the Internet and via home area networks can be guaranteed as totally secure.  Whilst we strive to protect such information, we cannot ensure the security of any information which is transmitted.  In addition, we disclaim all responsibility for hacking or other wilful or unauthorised access to such information.
+ Hardware and Software Defects
+If you use any third party hardware or software (such as IHD hardware units manufactured by third parties), we take no responsibility for defects in such hardware or software and inaccurate readings, damage or loss arising from the use of such hardware or software.
+We make no warranties that any third party hardware or software will (including approved hardware, such as the Zigbee IHD device) successfully connect to the nominated smart meter or Portal.
+You agree and warrant that you will only use and install approved software and hardware (including only using and installing approved IHD devices, such as the Zigbee IHD device) and that you have not tampered with any such software and/or hardware.  You will be responsible for the costs of any damage (including any damage to any smart meters) which result from your non-compliance with these T&Cs.
+Portal Program Not Guaranteed to be Error Free
+Subject to clause 9.1, you acknowledge that the Portal cannot be guaranteed error free.  You acknowledge that the existence of any such errors will not constitute a breach of this agreement.
+No Liability for Damages
+Except as expressly provided in this agreement, we will not be liable to you for any loss or damage, including special, indirect or consequential damages (including damages for loss of profit, loss of revenue, or loss of opportunity) in relation to your use of the Portal and/or IHD.
+TERM OF AGREEMENT
+ Termination
+This agreement begins from the time you click "I Accept" and terminates automatically upon the occurrence of any of the following circumstances:
+(a)             if you breach any term of this agreement, upon notice by us that the agreement is terminated;
+(b)             if you cancel your account by emailing us at energye@ue.com.au or give notice that you withdraw your consent in relation to personal information required to provide you access to the Portal;
+(c)             if you move house or we consider that you are not or may not be the rightful recipient of information from a particular meter installation;
+(d)             if you are a company, firm or partnership, if that company, firm or partnership is dissolved or wound up.
+Consequences of Termination
+Upon termination, your account will be disabled or deactivated and you will no longer be able to access data from the Portal and/or IHD.
+GENERAL
+(a)             We have no liability for any failure to comply with these T&Cs where failure is due to circumstances beyond our reasonable control.
+(b)             These T&Cs are governed by the law of Victoria, Australia

@@ -1,0 +1,2202 @@
+test := `{
+  "selectedPeriod": {
+    "consumptionData": {
+      "peak": [
+        {
+          "total": 0.181,
+          "meters": {
+            "0962141": 0.181
+          }
+        },
+        {
+          "total": 0.251,
+          "meters": {
+            "0962141": 0.251
+          }
+        },
+        {
+          "total": 0.213,
+          "meters": {
+            "0962141": 0.213
+          }
+        },
+        {
+          "total": 0.187,
+          "meters": {
+            "0962141": 0.187
+          }
+        },
+        {
+          "total": 0.175,
+          "meters": {
+            "0962141": 0.175
+          }
+        },
+        {
+          "total": 0.175,
+          "meters": {
+            "0962141": 0.175
+          }
+        },
+        {
+          "total": 0.168,
+          "meters": {
+            "0962141": 0.168
+          }
+        },
+        {
+          "total": 0.494,
+          "meters": {
+            "0962141": 0.494
+          }
+        },
+        {
+          "total": 0.281,
+          "meters": {
+            "0962141": 0.281
+          }
+        },
+        {
+          "total": 0.3,
+          "meters": {
+            "0962141": 0.3
+          }
+        },
+        {
+          "total": 0.181,
+          "meters": {
+            "0962141": 0.181
+          }
+        },
+        {
+          "total": 0.181,
+          "meters": {
+            "0962141": 0.181
+          }
+        },
+        {
+          "total": 0.175,
+          "meters": {
+            "0962141": 0.175
+          }
+        },
+        {
+          "total": 0.169,
+          "meters": {
+            "0962141": 0.169
+          }
+        },
+        {
+          "total": 0.456,
+          "meters": {
+            "0962141": 0.456
+          }
+        },
+        {
+          "total": 0.2,
+          "meters": {
+            "0962141": 0.2
+          }
+        },
+        {
+          "total": 0.619,
+          "meters": {
+            "0962141": 0.619
+          }
+        },
+        {
+          "total": 0.657,
+          "meters": {
+            "0962141": 0.657
+          }
+        },
+        {
+          "total": 0.619,
+          "meters": {
+            "0962141": 0.619
+          }
+        },
+        {
+          "total": 1.4,
+          "meters": {
+            "0962141": 1.4
+          }
+        },
+        {
+          "total": 1.25,
+          "meters": {
+            "0962141": 1.25
+          }
+        },
+        {
+          "total": 0.694,
+          "meters": {
+            "0962141": 0.694
+          }
+        },
+        {
+          "total": 0.375,
+          "meters": {
+            "0962141": 0.375
+          }
+        },
+        {
+          "total": 0.137,
+          "meters": {
+            "0962141": 0.137
+          }
+        }
+      ],
+      "offpeak": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "shoulder": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "generation": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "suburbAverage": [
+        0.473,
+        0.374,
+        0.321,
+        0.301,
+        0.288,
+        0.326,
+        0.429,
+        0.585,
+        0.547,
+        0.49,
+        0.477,
+        0.46,
+        0.436,
+        0.416,
+        0.432,
+        0.474,
+        0.541,
+        0.676,
+        0.835,
+        0.863,
+        0.83,
+        0.768,
+        0.668,
+        0.68
+      ]
+    },
+    "customerCounts": {
+      "peak": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "offpeak": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shoulder": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "generation": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "costData": {
+      "peak": [
+        {
+          "total": 0.03801,
+          "meters": {
+            "0962141": 0.03801
+          }
+        },
+        {
+          "total": 0.05271,
+          "meters": {
+            "0962141": 0.05271
+          }
+        },
+        {
+          "total": 0.04473,
+          "meters": {
+            "0962141": 0.04473
+          }
+        },
+        {
+          "total": 0.03927,
+          "meters": {
+            "0962141": 0.03927
+          }
+        },
+        {
+          "total": 0.03675,
+          "meters": {
+            "0962141": 0.03675
+          }
+        },
+        {
+          "total": 0.03675,
+          "meters": {
+            "0962141": 0.03675
+          }
+        },
+        {
+          "total": 0.03528,
+          "meters": {
+            "0962141": 0.03528
+          }
+        },
+        {
+          "total": 0.10374,
+          "meters": {
+            "0962141": 0.10374
+          }
+        },
+        {
+          "total": 0.05901,
+          "meters": {
+            "0962141": 0.05901
+          }
+        },
+        {
+          "total": 0.063,
+          "meters": {
+            "0962141": 0.063
+          }
+        },
+        {
+          "total": 0.03801,
+          "meters": {
+            "0962141": 0.03801
+          }
+        },
+        {
+          "total": 0.03801,
+          "meters": {
+            "0962141": 0.03801
+          }
+        },
+        {
+          "total": 0.03675,
+          "meters": {
+            "0962141": 0.03675
+          }
+        },
+        {
+          "total": 0.03549,
+          "meters": {
+            "0962141": 0.03549
+          }
+        },
+        {
+          "total": 0.09576,
+          "meters": {
+            "0962141": 0.09576
+          }
+        },
+        {
+          "total": 0.042,
+          "meters": {
+            "0962141": 0.042
+          }
+        },
+        {
+          "total": 0.12999,
+          "meters": {
+            "0962141": 0.12999
+          }
+        },
+        {
+          "total": 0.13797,
+          "meters": {
+            "0962141": 0.13797
+          }
+        },
+        {
+          "total": 0.12999,
+          "meters": {
+            "0962141": 0.12999
+          }
+        },
+        {
+          "total": 0.294,
+          "meters": {
+            "0962141": 0.294
+          }
+        },
+        {
+          "total": 0.2625,
+          "meters": {
+            "0962141": 0.2625
+          }
+        },
+        {
+          "total": 0.14574,
+          "meters": {
+            "0962141": 0.14574
+          }
+        },
+        {
+          "total": 0.07875,
+          "meters": {
+            "0962141": 0.07875
+          }
+        },
+        {
+          "total": 0.02877,
+          "meters": {
+            "0962141": 0.02877
+          }
+        }
+      ],
+      "offpeak": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "shoulder": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "generation": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ]
+    },
+    "periodType": "day",
+    "offset": 3,
+    "title": "3 days ago",
+    "subtitle": "Friday 22 July 2016",
+    "categories": [
+      " ",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "estimated": false,
+    "validated": true,
+    "netConsumption": 9.538,
+    "consumptionDataAvailable": true,
+    "consumptionRatePercentages": {
+      "peak": 100,
+      "offpeak": 0,
+      "shoulder": 0
+    },
+    "averageNetConsumptionPerSubPeriod": 0.4,
+    "netConsumptionForUsageComparisonPeriod": 9.538
+  },
+  "comparisonPeriod": {
+    "consumptionData": {
+      "peak": [
+        {
+          "total": 0.168,
+          "meters": {
+            "0962141": 0.168
+          }
+        },
+        {
+          "total": 0.106,
+          "meters": {
+            "0962141": 0.106
+          }
+        },
+        {
+          "total": 0.106,
+          "meters": {
+            "0962141": 0.106
+          }
+        },
+        {
+          "total": 0.107,
+          "meters": {
+            "0962141": 0.107
+          }
+        },
+        {
+          "total": 0.094,
+          "meters": {
+            "0962141": 0.094
+          }
+        },
+        {
+          "total": 0.093,
+          "meters": {
+            "0962141": 0.093
+          }
+        },
+        {
+          "total": 0.344,
+          "meters": {
+            "0962141": 0.344
+          }
+        },
+        {
+          "total": 0.431,
+          "meters": {
+            "0962141": 0.431
+          }
+        },
+        {
+          "total": 0.125,
+          "meters": {
+            "0962141": 0.125
+          }
+        },
+        {
+          "total": 0.113,
+          "meters": {
+            "0962141": 0.113
+          }
+        },
+        {
+          "total": 0.107,
+          "meters": {
+            "0962141": 0.107
+          }
+        },
+        {
+          "total": 0.107,
+          "meters": {
+            "0962141": 0.107
+          }
+        },
+        {
+          "total": 0.094,
+          "meters": {
+            "0962141": 0.094
+          }
+        },
+        {
+          "total": 0.813,
+          "meters": {
+            "0962141": 0.813
+          }
+        },
+        {
+          "total": 0.431,
+          "meters": {
+            "0962141": 0.431
+          }
+        },
+        {
+          "total": 1.906,
+          "meters": {
+            "0962141": 1.906
+          }
+        },
+        {
+          "total": 1.012,
+          "meters": {
+            "0962141": 1.012
+          }
+        },
+        {
+          "total": 1.625,
+          "meters": {
+            "0962141": 1.625
+          }
+        },
+        {
+          "total": 1.094,
+          "meters": {
+            "0962141": 1.094
+          }
+        },
+        {
+          "total": 0.757,
+          "meters": {
+            "0962141": 0.757
+          }
+        },
+        {
+          "total": 0.738,
+          "meters": {
+            "0962141": 0.738
+          }
+        },
+        {
+          "total": 0.725,
+          "meters": {
+            "0962141": 0.725
+          }
+        },
+        {
+          "total": 0.194,
+          "meters": {
+            "0962141": 0.194
+          }
+        },
+        {
+          "total": 0.187,
+          "meters": {
+            "0962141": 0.187
+          }
+        }
+      ],
+      "offpeak": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "shoulder": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "generation": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "suburbAverage": [
+        0.499,
+        0.399,
+        0.348,
+        0.326,
+        0.322,
+        0.358,
+        0.474,
+        0.665,
+        0.625,
+        0.564,
+        0.527,
+        0.503,
+        0.443,
+        0.409,
+        0.393,
+        0.396,
+        0.442,
+        0.619,
+        0.83,
+        0.888,
+        0.883,
+        0.814,
+        0.647,
+        0.616
+      ]
+    },
+    "customerCounts": {
+      "peak": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "offpeak": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "shoulder": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "generation": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "costData": {
+      "peak": [
+        {
+          "total": 0.03528,
+          "meters": {
+            "0962141": 0.03528
+          }
+        },
+        {
+          "total": 0.02226,
+          "meters": {
+            "0962141": 0.02226
+          }
+        },
+        {
+          "total": 0.02226,
+          "meters": {
+            "0962141": 0.02226
+          }
+        },
+        {
+          "total": 0.02247,
+          "meters": {
+            "0962141": 0.02247
+          }
+        },
+        {
+          "total": 0.01974,
+          "meters": {
+            "0962141": 0.01974
+          }
+        },
+        {
+          "total": 0.01953,
+          "meters": {
+            "0962141": 0.01953
+          }
+        },
+        {
+          "total": 0.07224,
+          "meters": {
+            "0962141": 0.07224
+          }
+        },
+        {
+          "total": 0.09051,
+          "meters": {
+            "0962141": 0.09051
+          }
+        },
+        {
+          "total": 0.02625,
+          "meters": {
+            "0962141": 0.02625
+          }
+        },
+        {
+          "total": 0.02373,
+          "meters": {
+            "0962141": 0.02373
+          }
+        },
+        {
+          "total": 0.02247,
+          "meters": {
+            "0962141": 0.02247
+          }
+        },
+        {
+          "total": 0.02247,
+          "meters": {
+            "0962141": 0.02247
+          }
+        },
+        {
+          "total": 0.01974,
+          "meters": {
+            "0962141": 0.01974
+          }
+        },
+        {
+          "total": 0.17073,
+          "meters": {
+            "0962141": 0.17073
+          }
+        },
+        {
+          "total": 0.09051,
+          "meters": {
+            "0962141": 0.09051
+          }
+        },
+        {
+          "total": 0.40026,
+          "meters": {
+            "0962141": 0.40026
+          }
+        },
+        {
+          "total": 0.21252,
+          "meters": {
+            "0962141": 0.21252
+          }
+        },
+        {
+          "total": 0.34125,
+          "meters": {
+            "0962141": 0.34125
+          }
+        },
+        {
+          "total": 0.22974,
+          "meters": {
+            "0962141": 0.22974
+          }
+        },
+        {
+          "total": 0.15897,
+          "meters": {
+            "0962141": 0.15897
+          }
+        },
+        {
+          "total": 0.15498,
+          "meters": {
+            "0962141": 0.15498
+          }
+        },
+        {
+          "total": 0.15225,
+          "meters": {
+            "0962141": 0.15225
+          }
+        },
+        {
+          "total": 0.04074,
+          "meters": {
+            "0962141": 0.04074
+          }
+        },
+        {
+          "total": 0.03927,
+          "meters": {
+            "0962141": 0.03927
+          }
+        }
+      ],
+      "offpeak": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "shoulder": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ],
+      "generation": [
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        },
+        {
+          "total": 0,
+          "meters": {}
+        }
+      ]
+    },
+    "periodType": "day",
+    "offset": 4,
+    "title": "4 days ago",
+    "subtitle": "Thursday 21 July 2016",
+    "categories": [
+      " ",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "estimated": false,
+    "validated": true,
+    "netConsumption": 11.477,
+    "consumptionDataAvailable": true,
+    "consumptionRatePercentages": {
+      "peak": 100,
+      "offpeak": 0,
+      "shoulder": 0
+    },
+    "averageNetConsumptionPerSubPeriod": 0.48,
+    "netConsumptionForUsageComparisonPeriod": 11.477
+  },
+  "comparisonAvailable": true,
+  "costDifference": -0.41,
+  "kwhPercentageDifference": -17,
+  "costDifferenceMessage": {
+    "text": "We estimate your  cost  decreased $0.41",
+    "keyword": "\\$0.41",
+    "change": "decrease"
+  },
+  "consumptionDifferenceMessage": {
+    "text": "Your  consumption 3 days ago  decreased 17% compared to 4 days ago",
+    "ruleName": "decreased",
+    "change": "decrease",
+    "keyword": "17%"
+  },
+  "isPreviousPeriodDataAvailable": true,
+  "isNextPeriodDataAvailable": true,
+  "isDrillDownAvailable": false,
+  "subPeriodType": "hour",
+  "selectedPeriodUpToDate": true,
+  "customerHasGenerationData": false,
+  "periodMetadata": {
+    "periodType": "day",
+    "offset": 3
+  },
+  "carbonWidgetConfig": {
+    "examples": [
+      {
+        "mass": 6.6,
+        "label": "Melbourne to Yarra Glen",
+        "tooltip": "Drive from Melbourne to Yarra Glen in a VW Golf",
+        "icon": "Car_Golf.png",
+        "userFriendlyMass": "6.6kg"
+      },
+      {
+        "mass": 9.3,
+        "label": "Chadstone Shopping Centre to Hampton",
+        "tooltip": "Drive from Chadstone Shopping Centre to Hampton in a LandCruiser",
+        "icon": "Car_Land_Rover.png",
+        "userFriendlyMass": "9.3kg"
+      },
+      {
+        "mass": 12,
+        "label": "Melbourne to Torquay",
+        "tooltip": "Drive from Melbourne to Torquay in a VW Golf",
+        "icon": "Car_Golf.png",
+        "userFriendlyMass": "12kg"
+      },
+      {
+        "mass": 15,
+        "label": "Melbourne to Yarra Glen",
+        "tooltip": "Drive from Melbourne to Yarra Glen in a LandCruiser",
+        "icon": "Car_Land_Rover.png",
+        "userFriendlyMass": "15kg"
+      },
+      {
+        "mass": 18,
+        "label": "Moonee Ponds to Frankston",
+        "tooltip": "Drive from Moonee Ponds to Frankston in a Commodore",
+        "icon": "Car_Commodore.png",
+        "userFriendlyMass": "18kg"
+      },
+      {
+        "mass": 25,
+        "label": "Melbourne to Yarra Glen",
+        "tooltip": "Drive from Melbourne to Yarra Glen in a small truck",
+        "icon": "Car_Truck.png",
+        "userFriendlyMass": "25kg"
+      }
+    ],
+    "selectedPeriod": {
+      "carbonFootprint": 13,
+      "carbonFootprintDescription": "3 days ago",
+      "carbonFootprintWithUnit": "13kg"
+    },
+    "comparisonPeriod": {
+      "carbonFootprint": 16,
+      "carbonFootprintDescription": "4 days ago",
+      "carbonFootprintWithUnit": "16kg"
+    }
+  },
+  "latestInterval": "2016-07-24:48",
+  "tariffType": "1Tier"
+}
