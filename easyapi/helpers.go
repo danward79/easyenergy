@@ -24,7 +24,7 @@ func DaysSinceDate(d string) int {
 
 	days := time.Since(date).Hours() / 24
 
-	if int(days) > 0 {
+	if days > 0 {
 		if math.Mod(days, 1) > 0 {
 			days++
 		}
