@@ -62,13 +62,11 @@ func doQuery(c *easyapi.EasyClient) {
 
 	fmt.Println("Missing Date:", missing[0], missing[0].Format("02/01/2006"), "Days to check:", firstDayToQuery) // TODO: Remove
 
-	err := c.GetCookie()
-	if err != nil {
+	if err := c.GetCookie(); err != nil {
 		log.Println(err)
 	}
 
-	err = c.Login()
-	if err != nil {
+	if err := c.Login(); err != nil {
 		log.Println(err)
 	}
 
@@ -76,17 +74,19 @@ func doQuery(c *easyapi.EasyClient) {
 
 		r, err := c.QueryDay(i)
 		if err != nil {
-			fmt.Println("Error", err)
+			log.Println("Error", err)
 		}
 
 		c.UpsertNet(&r)
 		c.UpsertConsumption(&r)
 	}
 
+	var updates bool // TODO: Remove when done
 	if updates, err := c.PollUpdatesAvailable(); err != nil {
 		log.Println("New data available:", updates)
 		log.Println(err)
 	}
+	fmt.Println("New data available:", updates) // TODO: Remove
 
 	if err := c.Logout(); err != nil {
 		log.Println(err)

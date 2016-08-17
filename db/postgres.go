@@ -15,8 +15,8 @@ type DBSession struct {
 // New session
 func New(user, pass, addr, name string) (*DBSession, error) {
 
-	//address := fmt.Sprintf("postgres://%s:%s@%s:5432/%s?sslmode=disable", user, pass, addr, name)
-	address := fmt.Sprintf("postgres://%s/%s?sslmode=disable", addr, name)
+	address := fmt.Sprintf("postgres://%s:%s@%s:5432/%s?sslmode=disable", user, pass, addr, name)
+	//address := fmt.Sprintf("postgres://%s/%s?sslmode=disable", addr, name)
 
 	session, err := sql.Open("postgres", address)
 	if err != nil {

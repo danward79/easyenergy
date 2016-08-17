@@ -1,3 +1,3 @@
 ### ENERGYEASY
 
-A simple api for ENERGYEASY meter readings
+A simple api for saving ENERGYEASY meter readings
