@@ -26,7 +26,7 @@ func init() {
 }
 
 func main() {
-
+	log.Println("Energy Easy Started ....")
 	// Create new instance of webservice
 	c := easyapi.NewClient(os.Getenv("ENERGYEASYUSER"), os.Getenv("ENERGYEASYPASS"), os.Getenv("ENERGYEASYDBUSER"), os.Getenv("ENERGYEASYDBPASS"), os.Getenv("ENERGYEASYDBPATH"), os.Getenv("ENERGYEASYDB"))
 
