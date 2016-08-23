@@ -2,7 +2,6 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"log"
 	"os"
 	"os/signal"
@@ -29,7 +28,7 @@ func init() {
 func main() {
 
 	// Create new instance of webservice
-	c := easyapi.NewClient(os.Getenv("ENERGYEASYUSER"), os.Getenv("ENERGYEASYPASS"))
+	c := easyapi.NewClient(os.Getenv("ENERGYEASYUSER"), os.Getenv("ENERGYEASYPASS"), os.Getenv("ENERGYEASYDBUSER"), os.Getenv("ENERGYEASYDBPASS"), os.Getenv("ENERGYEASYDBPATH"), os.Getenv("ENERGYEASYDB"))
 
 	// Main loop... Checks every 60 mins for a new dataset
 	signalChan := make(chan os.Signal, 1)
@@ -52,15 +51,13 @@ func exit() {
 
 func doQuery(c *easyapi.EasyClient) {
 
-	fmt.Println("timer...", time.Now()) // TODO: Remove when confident
+	//log.Println("EasyEnergy Query") // NOTE: Unnecessary logging!
 
 	// Look for days with empty data and then sort to exract the lowest
 	missing := c.FindMissingData()
 	sort.Sort(timeStrings(missing))
 
 	firstDayToQuery := easyapi.DaysSinceDate(missing[0].Format("02/01/2006"))
-
-	fmt.Println("Missing Date:", missing[0], missing[0].Format("02/01/2006"), "Days to check:", firstDayToQuery) // TODO: Remove
 
 	if err := c.GetCookie(); err != nil {
 		log.Println(err)
@@ -81,12 +78,10 @@ func doQuery(c *easyapi.EasyClient) {
 		c.UpsertConsumption(&r)
 	}
 
-	var updates bool // TODO: Remove when done
 	if updates, err := c.PollUpdatesAvailable(); err != nil {
 		log.Println("New data available:", updates)
 		log.Println(err)
 	}
-	fmt.Println("New data available:", updates) // TODO: Remove
 
 	if err := c.Logout(); err != nil {
 		log.Println(err)

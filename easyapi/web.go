@@ -9,7 +9,6 @@ import (
 	"log"
 	"net/http"
 	"net/url"
-	"os"
 	"strconv"
 	"sync"
 	"time"
@@ -62,11 +61,11 @@ func NewJarClient() *http.Client {
 }
 
 //NewClient create a new easy energy client
-func NewClient(user, pass string) *EasyClient {
+func NewClient(user, pass, dbUser, dbPass, dbPath, dbName string) *EasyClient {
 
 	client := NewJarClient()
 
-	db, err := postgres.New(os.Getenv("ENERGYEASYDBUSER"), os.Getenv("ENERGYEASYDBPASS"), os.Getenv("ENERGYEASYDBPATH"), os.Getenv("ENERGYEASYDB"))
+	db, err := postgres.New(dbUser, dbPass, dbPath, dbName)
 	if err != nil {
 		log.Fatal(err)
 	}
