@@ -21,7 +21,7 @@ func (c *EasyClient) UpsertConsumption(j *QueryResult) {
 		s := prepUpsertConsumptionStatement(date, k, v.Reading, j.SelectedPeriod.CostData.Day[k].Reading)
 		err := c.db.Execute(s)
 		if err != nil {
-			log.Fatal(err)
+			log.Println(err)
 		}
 	}
 }
@@ -55,7 +55,7 @@ func (c *EasyClient) UpsertNet(j *QueryResult) {
 
 	err := c.db.Execute(statement)
 	if err != nil {
-		log.Fatal(err)
+		log.Println(err)
 	}
 }
 
@@ -66,7 +66,7 @@ func (c *EasyClient) InsertNet(j *QueryResult) {
 
 	err := c.db.Execute(statement, j.SelectedPeriod.Date, j.SelectedPeriod.NetConsumption)
 	if err != nil {
-		log.Fatal(err)
+		log.Println(err)
 	}
 }
 
@@ -80,7 +80,7 @@ func (c *EasyClient) InsertConsumption(j *QueryResult) {
 	for k, v := range j.SelectedPeriod.ConsumptionData.Day {
 		err := c.db.Execute(statement, date, k, v.Reading, j.SelectedPeriod.CostData.Day[k].Reading)
 		if err != nil {
-			log.Fatal(err)
+			log.Println(err)
 		}
 	}
 
@@ -118,8 +118,9 @@ func (c *EasyClient) FindMissingData() []time.Time {
 	for rows.Next() {
 		var c consumption
 
-		if err := rows.Scan(&c.date, &c.hour, &c.consumption, &c.cost); err != nil {
-			log.Fatal(err)
+		if err = rows.Scan(&c.date, &c.hour, &c.consumption, &c.cost); err != nil {
+			log.Println(err)
+			return nil
 		}
 
 		dateWithMissingData = append(dateWithMissingData, c.date)
@@ -127,7 +128,8 @@ func (c *EasyClient) FindMissingData() []time.Time {
 
 	err = rows.Err()
 	if err != nil {
-		log.Fatal(err)
+		log.Println(err)
+		return nil
 	}
 
 	return dateWithMissingData

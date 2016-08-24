@@ -27,6 +27,7 @@ func init() {
 
 func main() {
 	log.Println("Energy Easy Started ....")
+
 	// Create new instance of webservice
 	c := easyapi.NewClient(os.Getenv("ENERGYEASYUSER"), os.Getenv("ENERGYEASYPASS"), os.Getenv("ENERGYEASYDBUSER"), os.Getenv("ENERGYEASYDBPASS"), os.Getenv("ENERGYEASYDBPATH"), os.Getenv("ENERGYEASYDB"))
 
@@ -61,10 +62,12 @@ func doQuery(c *easyapi.EasyClient) {
 
 	if err := c.GetCookie(); err != nil {
 		log.Println(err)
+		return
 	}
 
 	if err := c.Login(); err != nil {
 		log.Println(err)
+		return
 	}
 
 	for i := firstDayToQuery; i >= 0; i-- {
@@ -72,6 +75,7 @@ func doQuery(c *easyapi.EasyClient) {
 		r, err := c.QueryDay(i)
 		if err != nil {
 			log.Println("Error", err)
+			return
 		}
 
 		c.UpsertNet(&r)
