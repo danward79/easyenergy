@@ -21,7 +21,7 @@ func (t timeStrings) Swap(i, j int)      { t[i], t[j] = t[j], t[i] }
 func (t timeStrings) Less(i, j int) bool { return t[i].Before(t[j]) }
 
 func init() {
-	interval = flag.Int("interval", 60, "interval beween checks in minutes for new data")
+	interval = flag.Int("interval", 120, "interval beween checks in minutes for new data")
 	flag.Parse()
 }
 
